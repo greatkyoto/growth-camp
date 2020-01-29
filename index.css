@@ -37,7 +37,27 @@ body {
     color: #ffc107;
 }
 
+#topimg{
+    background-image:url(man-3924041.jpg);
+    /*background-repeat:no-repeat;*/
+    /*background-size:cover;*/
+    /*text-align: center;*/
+    /*background-attachment: fixed;*/
+}
+.top{
+    font-size: 30px;
+    color: white;/*文字は白に*/
+    padding: 40px;
+}
 
+.explain{
+    font-size: 20px;
+    margin-bottom: 0px;
+    color: white;/*文字は白に*/
+    padding-bottom: 30px;
+    line-height:60px;
+    text-align: center;
+}
 
 .logo {
     max-width: 30%;
@@ -216,27 +236,7 @@ header{
      border-top: 10px solid #282724;
 }
 
-#topimg{
-    background-image:url(street-workout-2629171_1920.jpg);
-    background-repeat:no-repeat;
-    background-size:cover;
-    text-align: center;
-    background-attachment: fixed;
-}
-.top{
-    font-size: 30px;
-    color: white;/*文字は白に*/
-    padding: 40px;
-}
 
-.explain{
-    font-size: 20px;
-    margin-bottom: 0px;
-    color: white;/*文字は白に*/
-    padding-bottom: 30px;
-    line-height:60px;
-    text-align: center;
-}
 
 ul{
     list-style: none;
@@ -440,12 +440,16 @@ table thead tr{
 
 
 .matome{
-    background-image: url(dawn-190055_1280.jpg);
+    
     background-repeat:no-repeat;
     background-size:cover;
     width: 100%;
     text-align: center;
     background-attachment: fixed;
+}
+
+#matome{
+    background-image: url(dawn-190055_1280.jpg);
 }
 
 .contact{
